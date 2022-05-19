@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Other Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="shortcut icon" type="image/x-icon" href="images/computer.ico">
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.php">Bryan Arius</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.php">Home</a></li>
+                                <li><a href="otherprojects.php">Other Projects</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>Other Projects</h2>
+								<p>Here are some older projects</p>
+							</div>
+						</header>
+
+						<!-- Content -->
+							<div class="wrapper">
+								<div class="inner">
+									<section class="features">
+										<article>
+											<a href="projects/apple" target="_blank" class="image"><img src="images/apple.jpg" alt="" /></a>
+											<h3 class="major">Apple page</h3>
+											<p>A recreation of the product page of the Macbook pro on the Apple Website </p>
+											<a href="projects/apple" target="_blank" class="special">See More</a>
+										</article>
+										<article>
+											<a href="projects/boredbot/" class="image" target="_blank"><img src="images/boredbot.jpg" alt="" /></a>
+											<h3 class="major">Bored Bot</h3>
+											<p>The Bored Bot is a project that uses an API to give you something to to in case..... you're bored</p>
+											<a href="projects/boredbot/" target="_blank" class="special">See More</a>
+										</article>
+                                        <article>
+											<a href="projects/movies/" class="image" target="_blank"><img src="images/movies.jpg" alt="" /></a>
+											<h3 class="major">Movies List</h3>
+											<p>The movies list project is a page where you can input the name and genre of all your favorite movies into a database to watch again later</p>
+											<a href="projects/movies/" target="_blank" class="special">See More</a>
+										</article>
+
+                                        <article>
+											<a href="projects/firstweb" target="_blank" class="image"><img src="images/firstweb.jpg" alt="" /></a>
+											<h3 class="major">First Website</h3>
+											<p>This is the first website i've ever created. It's not the greatest but it shows how far I've came in my web development journey. The website showcases some my favorite sneakers of all time</p>
+											<a href="projects/firstweb" target="_blank" class="special">See More</a>
+										</article>
+									</section>
+
+								</div>
+							</div>
+
+					</section>
+
+				<!-- Footer -->
+				<section id="footer">
+					<div class="inner">
+						<h2 class="major">Get in touch</h2>
+						<p>Thank you for checking out my portfolio page. Feel free to contact me for any inquires by filling out the form below or emailing or calling the number below.</p>
+
+						<form method="post" action="assets/php/emailprocess.php">
+								<div class="fields">
+									<div class="field">
+										<label for="firstname">First Name</label>
+										<input type="text" name="firstname" id="firstname" />
+									</div>
+									<div class="field">
+										<label for="lastname">Last Name</label>
+										<input type="text" name="lastname" id="lastname" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="submit" name="submit"/></li>
+								</ul>
+							</form>
+
+						<ul class="contact">
+							<li class="icon solid fa-home">
+
+								<p>Jacksonville, Florida</p>
+							</li>
+							<li class="icon solid fa-phone">(904) 300-8135</li>
+							<li class="icon solid fa-envelope"><a href="#">bryanarius@gmail.com</a></li>
+							
+						</ul>
+					</div>
+				</section>
+
+		</div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
